@@ -1,0 +1,72 @@
+.theme-btn-sign-up {
+    @include rfs(16px, font-size);
+    color: #F53855;
+    text-transform: capitalize;
+    padding: size(8) size(27);
+    background: #fff;
+    border-radius: size(50);
+    border: 1px solid #F53855;
+    font-weight: 500;
+    letter-spacing: size(1);
+    border-color: #F53855;
+    line-height: size(19);
+    text-decoration: none;
+    &:hover{
+        color: #fff;
+        background-color: #F53855;
+    }
+}
+.theme-btn-primary-1 {
+    border-radius: size(10);
+    background-color: #F53838;
+    width: size(245);
+    height: size(70);
+    @include rfs(16px, font-size);
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: size(1);
+    text-decoration: none !important;
+    box-shadow: 0 20px 40px rgba(245, 56, 56, 0.35);
+    &:hover {
+        background-position: right center;
+        color: #fff;
+    }
+}
+
+.theme-btn-select{
+    @include rfs(16px, font-size);
+    color: #F53855;
+    padding: size(8) size(30);
+    text-transform: capitalize;
+    background: #fff;
+    border-radius: size(50);
+    border: 1px solid #F53855;
+    font-weight: 500;
+    letter-spacing: size(1);
+    border-color: #F53855;
+    line-height: size(19);
+    text-decoration: none;
+}
+
+.social-icon{
+    @include rfs(14px, font-size);
+    color: #F53855;
+    background: #fff;
+    border-radius: 50%;
+    width: size(30);
+    height: size(30);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: size(10);
+    &:hover{
+        color: #fff;
+        background: #F53855;
+    }
+}

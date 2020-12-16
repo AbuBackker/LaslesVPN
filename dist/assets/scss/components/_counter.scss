@@ -1,0 +1,38 @@
+.counter{
+    display: flex;
+    flex-direction: unset;
+    border-radius: size(10);
+    padding: size(72) size(90);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.09);
+    @media (max-width: 991px) {
+        padding: size(40) size(60);
+    }
+    @media (max-width: 767px) {
+        flex-direction: column;
+        margin-top: size(160);
+        padding: size(30) size(50);
+    }  
+    .counter-block{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        margin-top: size(15);
+        img{
+            margin-right: size(30);
+        }
+        .number{
+            @include rfs(25px, font-size);
+            color: #0B132A;
+            font-weight: 500;
+            margin:0;
+            line-height: size(30);
+        }
+        .title{
+            @include rfs(20px, font-size);
+            color: #4F5665;
+            font-weight: normal;
+            line-height: size(30);
+        }
+    }
+}

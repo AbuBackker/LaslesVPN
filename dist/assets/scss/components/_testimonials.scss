@@ -1,0 +1,48 @@
+.testimonials{
+    padding: size(80) 0 size(40);
+    @media (max-width: 767px) {
+        padding: size(80) 0 size(0);
+    } 
+    .heading-content{
+        max-width: size(578);
+    }
+}
+.testimonials-card{
+    border-radius: size(10);
+    background-color: #fff;
+    border: 1px solid #F6F6F6;
+    padding: size(30);
+    margin-bottom: size(30);
+    .name{
+        @include rfs(18px, font-size);
+        color: #0B132A;
+        font-weight: 500;
+        line-height: size(30);
+        margin: size(0);
+    }
+    .location{
+        @include rfs(14px, font-size);
+        color: #4F5665;
+        font-weight: normal;
+        line-height: size(30);
+    }
+    .ratings{
+        margin-top: size(18);
+        .rating{
+            img{
+                margin-left: size(5);
+                margin-bottom: size(5);
+            }
+        }
+    }
+    .testimonials-desc{
+        @include rfs(16px, font-size);
+        color: #0B132A;
+        font-weight: normal;
+        line-height: size(30);
+        margin-top: size(20);
+    }
+    &:hover {
+        border: 1px solid #F53838;
+}
+}
