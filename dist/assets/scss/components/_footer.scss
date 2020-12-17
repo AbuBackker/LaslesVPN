@@ -20,6 +20,7 @@ footer {
                     @include rfs(16px, font-size);
                     color: #4F5665;
                     font-weight: normal;
+                    margin-bottom: size(10);
                     a {
                         @include rfs(16px, font-size);
                         color: #4F5665;
@@ -48,13 +49,6 @@ footer {
             line-height: size(30);
             font-weight: normal;
             margin-top: size(30);
-        }
-        .footer-heading{
-            @include rfs(18px, font-size);
-            color: #0B132A;
-            line-height: size(30);
-            font-weight: 500;
-            margin-bottom: size(20);
         }
     }
 }

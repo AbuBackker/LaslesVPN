@@ -22,7 +22,7 @@
     width: size(245);
     height: size(70);
     @include rfs(16px, font-size);
-    font-weight: 500;
+    font-weight: bold;
     color: #fff;
     text-align: center;
     display: flex;
@@ -40,16 +40,20 @@
 .theme-btn-select{
     @include rfs(16px, font-size);
     color: #F53855;
-    padding: size(8) size(30);
+    padding: size(12) size(60);
     text-transform: capitalize;
     background: #fff;
     border-radius: size(50);
     border: 1px solid #F53855;
-    font-weight: 500;
+    font-weight: bold;
     letter-spacing: size(1);
     border-color: #F53855;
     line-height: size(19);
     text-decoration: none;
+    &:hover{
+        color: #fff;
+        background-color: #F53838;
+    }
 }
 
 .social-icon{
@@ -65,6 +69,7 @@
     font-weight: 500;
     text-decoration: none;
     margin-right: size(10);
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
     &:hover{
         color: #fff;
         background: #F53855;

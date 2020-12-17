@@ -10,13 +10,6 @@
     padding: size(80) size(60);
     margin-bottom: size(30);
     position: relative;
-    .pricing-plan {
-        @include rfs(16px, font-size);
-        color: #0B132A;
-        font-weight: 500;
-        margin-top: size(30);
-        margin-bottom: size(30);
-    }
     .pricing-list{
         ul{
             li{
@@ -37,12 +30,6 @@
     }
     .pricing-amount-mo{
         color: #4F5665;
-    }
-    .theme-btn-select{
-        &:hover{
-            color: #fff;
-            background-color: #F53838;
-        }
     }
     &:hover {
             border: 1px solid #F53838;

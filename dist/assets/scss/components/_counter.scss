@@ -24,7 +24,7 @@
         .number{
             @include rfs(25px, font-size);
             color: #0B132A;
-            font-weight: 500;
+            font-weight: bold;
             margin:0;
             line-height: size(30);
         }

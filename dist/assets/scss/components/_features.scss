@@ -8,24 +8,14 @@
     .text-block {
       @media (max-width: 767px) {
         margin-top: size(60);
-    } 
-      .subtitle {
-        @include rfs(50px, font-size);
-        color: #0B132A;
-        line-height: size(70);
-      }
-      .content {
-        @include rfs(16px, font-size);
-        color: #4F5665;
-        line-height: size(30);
-        margin-top: size(20);
-        margin-bottom: size(20);
-      }
+    }
       ul{
         li{
             display: -webkit-box;
-            .features-desc{
+            margin-bottom: size(15);
+            .item-list{
                 margin-left: size(12);
+                margin-bottom: 0;
                 @include rfs(14px, font-size);
                 font-weight: normal;
                 line-height: size(30);

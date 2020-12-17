@@ -1,7 +1,20 @@
 .sponsored{
-    .col{
-        @media (max-width: 1199px) {
-
+    .row{
+        @media (max-width: 767px) {
+            max-width: 100%;
+        }
+        .col{
+            @media (min-width: 768px) and (max-width: 1199px) {
+                flex: 0 0 auto;
+                width: 33%;
+                margin-bottom: size(40);
+                text-align: center;
+            }
+            @media (max-width: 767px) {
+                width: 48%;
+                margin-bottom: size(40);
+            }
         }
     }
+
 }

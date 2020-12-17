@@ -1,6 +1,32 @@
 body{
+    @include rfs(16px, font-size);
     font-family: "Rubik", sans-serif;
+    color: #4F5665;
+    font-weight: normal;
+    line-height: size(30);
 }
+
+h1{
+    @include rfs(50px, font-size);
+    color: #0B132A;
+    font-weight: 500;
+    line-height: size(70);
+}
+
+h2 {
+    @include rfs(35px, font-size);
+    color: #0B132A;
+    font-weight: 500;
+    line-height: size(50);
+}
+
+h3 {
+    @include rfs(18px, font-size);
+    color: #0B132A;
+    font-weight: 500;
+    line-height: size(30);
+}
+
 
 // Heading
 .section-heading {
@@ -9,14 +35,5 @@ body{
         color: #0B132A;
         font-weight: 500;
         line-height: size(50);
-    }
-    .heading-content {
-        @include rfs(16px, font-size);
-        color: #4F5665;
-        font-weight: normal;
-        max-width: size(600);
-        line-height: size(30);
-        margin-top: size(20);
-        margin-bottom: size(60);
     }
 }

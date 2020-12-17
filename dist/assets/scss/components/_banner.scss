@@ -8,18 +8,9 @@
     @media (max-width: 767px) {
       margin-top: size(150);
     }
-    .text-block {
-      .subtitle {
-        @include rfs(50px, font-size);
-        color: #0B132A;
-        line-height: size(70);
-      }
-      .content {
-        @include rfs(16px, font-size);
-        color: #4F5665;
-        line-height: size(30);
-        margin-top: size(20);
-        margin-bottom: size(50);
+    p{
+      b{
+        font-weight: 500;
       }
     }
     .image-block{

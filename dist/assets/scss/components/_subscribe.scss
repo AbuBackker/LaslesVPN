@@ -21,18 +21,8 @@
     @media (max-width: 767px) {
         width: auto;
     } 
-    .title {
-        @include rfs(35px, font-size);
-        color: #0B132A;
-        font-weight: 500;
-        line-height: size(50);
-    }
     .content {
-        @include rfs(16px, font-size);
-        color: #4F5665;
-        font-weight: normal;
         max-width: size(600);
-        line-height: size(30);
         margin-top: size(20);
         margin-bottom: size(60);
     }
