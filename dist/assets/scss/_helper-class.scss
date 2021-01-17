@@ -1,3 +1,11 @@
+.my-20{
+    margin-top: size(20);
+    margin-bottom: size(20);
+}
+.my-30{
+    margin-top: size(30);
+    margin-bottom: size(30);
+}
 .my-20-50{
     margin-top: size(20);
     margin-bottom: size(50);
@@ -10,15 +18,8 @@
     margin-top: size(20);
     margin-bottom: size(150);
 }
-.my-20{
-    margin-top: size(20);
-    margin-bottom: size(20);
-
-}
-.my-30{
-    margin-top: size(30);
-    margin-bottom: size(30);
-
+.mt-90{
+    margin-top: size(90);
 }
 .mb-20{
     margin-bottom: size(20);

@@ -124,6 +124,14 @@ h3 {
     .section-heading .heading-title {
       font-size: 2.1875rem; } }
 
+.my-20 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem; }
+
+.my-30 {
+  margin-top: 1.875rem;
+  margin-bottom: 1.875rem; }
+
 .my-20-50 {
   margin-top: 1.25rem;
   margin-bottom: 3.125rem; }
@@ -136,13 +144,8 @@ h3 {
   margin-top: 1.25rem;
   margin-bottom: 9.375rem; }
 
-.my-20 {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem; }
-
-.my-30 {
-  margin-top: 1.875rem;
-  margin-bottom: 1.875rem; }
+.mt-90 {
+  margin-top: 5.625rem; }
 
 .mb-20 {
   margin-bottom: 1.25rem; }
@@ -189,7 +192,7 @@ h3 {
 
 .banner {
   width: 100%;
-  height: 100vh;
+  height: 550px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -205,11 +208,25 @@ h3 {
       margin-top: 9.375rem; } }
   .banner p b {
     font-weight: 500; }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .banner .text-block h1 {
+      font-size: 2.625rem;
+      line-height: 3.75rem; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .banner .text-block h1 {
+      font-size: 2rem;
+      line-height: 2.875rem; } }
+  @media (min-width: 768px) and (max-width: 1199px) {
+    .banner .text-block p {
+      margin-bottom: 1.25rem; } }
   .banner .image-block img {
     max-width: 100%; }
   @media (max-width: 767px) {
     .banner .image-block {
       margin-top: 5.625rem; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .banner {
+      height: 26.875rem; } }
 
 .counter {
   display: -webkit-box;
@@ -220,7 +237,7 @@ h3 {
   -ms-flex-direction: unset;
   flex-direction: unset;
   border-radius: 0.625rem;
-  padding: 4.5rem 5.625rem;
+  padding: 0rem 4.5rem 5.625rem;
   -webkit-box-shadow: 0 20px 60px rgba(0, 0, 0, 0.09);
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.09); }
   @media (max-width: 991px) {
