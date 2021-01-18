@@ -32,8 +32,8 @@
     text-decoration: none !important;
     box-shadow: 0 20px 40px rgba(245, 56, 56, 0.35);
     &:hover {
-        background-position: right center;
         color: #fff;
+        background-color: darken(#F53855, 5%)
     }
 }
 
@@ -56,7 +56,7 @@
     }
 }
 
-.social-icon{
+.btn-social-icon{
     @include rfs(14px, font-size);
     color: #F53855;
     background: #fff;
@@ -69,9 +69,31 @@
     font-weight: 500;
     text-decoration: none;
     margin-right: size(10);
-    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    box-shadow: 0px 13px 18px rgba(17, 19, 35, 0.08);    
     &:hover{
         color: #fff;
         background: #F53855;
+    }
+}
+
+.scrollup-btn {
+    width: size(50);
+    height: size(50);
+    background-color: #F53838;
+    border-radius: 50%;
+    float: right;
+    position: fixed;
+    right: size(35);
+    bottom: size(40);
+    display: none;
+    text-align: center;
+    line-height: size(47);
+    i {
+        @include rfs(18px, font-size);
+        color: #fff;
+    }
+    &:hover {
+        color: #fff;
+        background-color: darken(#F53855, 5%)
     }
 }

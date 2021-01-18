@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body{
     @include rfs(16px, font-size);
     font-family: "Rubik", sans-serif;
